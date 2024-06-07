@@ -12,10 +12,10 @@ export const routes = Object.fromEntries([
   ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/index.html.js"), meta: {"t":"Guide","i":"lightbulb"} }],
   ["/uix/holingky.html", { loader: () => import(/* webpackChunkName: "uix_holingky.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/uix/holingky.html.js"), meta: {"t":"Holingky","i":"paintbrush","O":1} }],
   ["/uix/", { loader: () => import(/* webpackChunkName: "uix_index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/uix/index.html.js"), meta: {"t":"UIX Documentation","i":"rocket"} }],
-  ["/guide/bar/baz.html", { loader: () => import(/* webpackChunkName: "guide_bar_baz.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/bar/baz.html.js"), meta: {"t":"Baz","i":"circle-info"} }],
-  ["/guide/bar/", { loader: () => import(/* webpackChunkName: "guide_bar_index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/bar/index.html.js"), meta: {"t":"Bar feature","i":"lightbulb"} }],
   ["/guide/foo/ray.html", { loader: () => import(/* webpackChunkName: "guide_foo_ray.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/foo/ray.html.js"), meta: {"t":"Ray","i":"circle-info"} }],
   ["/guide/foo/", { loader: () => import(/* webpackChunkName: "guide_foo_index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/foo/index.html.js"), meta: {"t":"Foo feature","i":"lightbulb"} }],
+  ["/guide/bar/baz.html", { loader: () => import(/* webpackChunkName: "guide_bar_baz.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/bar/baz.html.js"), meta: {"t":"Baz","i":"circle-info"} }],
+  ["/guide/bar/", { loader: () => import(/* webpackChunkName: "guide_bar_index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/guide/bar/index.html.js"), meta: {"t":"Bar feature","i":"lightbulb"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
 ]);
 
