@@ -2,7 +2,7 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/portfolio.html", { loader: () => import(/* webpackChunkName: "portfolio.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/portfolio.html.js"), meta: {"t":"Portfolio Home","i":"home"} }],
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"Project home","i":"home"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"JAGR UIX Docs","i":"home"} }],
   ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "demo_disable.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"t":"Disabling layout and features","i":"gears","O":4} }],
   ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "demo_encrypt.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"t":"Encryption Article","i":"lock"} }],
   ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"t":"Layout","i":"object-group","O":2} }],
