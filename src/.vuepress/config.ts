@@ -13,7 +13,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
+      title: "JAGR UIX Docs",
       description: "A docs demo for vuepress-theme-hope",
     },
   },
