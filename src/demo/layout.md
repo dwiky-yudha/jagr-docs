@@ -3,9 +3,9 @@ title: Layout
 icon: object-group
 order: 2
 category:
-  - Guide
+  - Design System
 tag:
-  - Layout
+  - Holingky
 ---
 
 The layout contains:
