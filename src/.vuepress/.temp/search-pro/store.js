@@ -1,1 +1,1 @@
-export const store = ["/portfolio.html","/","/demo/disable.html","/demo/layout.html","/demo/markdown.html","/demo/page.html","/demo/","/guide/","/uix/holingky.html","/uix/","/guide/foo/ray.html","/guide/foo/","/guide/bar/baz.html","/guide/bar/","/404.html"];
+export const store = ["/portfolio.html","/","/demo/disable.html","/demo/layout.html","/demo/markdown.html","/demo/page.html","/demo/","/guide/","/uix/holingky.html","/uix/","/guide/bar/baz.html","/guide/bar/","/guide/foo/ray.html","/guide/foo/","/404.html"];

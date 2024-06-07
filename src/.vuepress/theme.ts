@@ -54,9 +54,12 @@ export default hopeTheme({
     // },
 
     comment: false,
+    docsearch:false,
+    search:false,
     
     searchPro: {
       autoSuggestions: false,
+      indexContent: true,
     },
 
     components: {
