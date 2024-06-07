@@ -54,6 +54,10 @@ export default hopeTheme({
     // },
 
     comment: false,
+    
+    searchPro: {
+      autoSuggestions: false,
+    },
 
     components: {
       components: ["Badge", "VPCard"],
