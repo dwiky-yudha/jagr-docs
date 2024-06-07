@@ -8,8 +8,8 @@ import * as clientConfig6 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/node_modu
 import * as clientConfig7 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/node_modules/@vuepress/plugin-copy-code/lib/client/config.js'
 import * as clientConfig8 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/md-enhance/config.js'
 import * as clientConfig9 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/node_modules/@vuepress/plugin-photo-swipe/lib/client/config.js'
-import * as clientConfig10 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
-import * as clientConfig11 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig10 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/src/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig11 from 'D:/BELAJAR/Program (App)/jagr-uix-docs/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
