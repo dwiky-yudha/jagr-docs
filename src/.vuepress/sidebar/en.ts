@@ -3,7 +3,6 @@ import { sidebar } from "vuepress-theme-hope";
 export const enSidebar = sidebar({
   "/": [
     "",
-    "portfolio",
     {
       text: "Demo",
       icon: "laptop-code",
@@ -18,10 +17,10 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "UIX Documentation",
-      icon: "rocket",
-      prefix: "uix/",
-      link: "uix/",
+      text: "SOP",
+      icon: "book-bookmark",
+      prefix: "sop/",
+      link: "sop/",
       children: "structure",
       collapsible: true,
     },
@@ -31,4 +30,7 @@ export const enSidebar = sidebar({
       link: "https://plugin-md-enhance.vuejs.press/guide/content/revealjs/demo.html",
     },
   ],
+  "/sop/": [
+    "holingky",
+  ]
 });
