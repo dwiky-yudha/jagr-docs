@@ -4,19 +4,6 @@ export const enSidebar = sidebar({
   "/": [
     "",
     {
-      text: "Demo",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "Docs",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
       text: "SOP",
       icon: "book-bookmark",
       prefix: "sop/",
@@ -29,8 +16,15 @@ export const enSidebar = sidebar({
       icon: "person-chalkboard",
       link: "https://plugin-md-enhance.vuejs.press/guide/content/revealjs/demo.html",
     },
+    {
+      text: "Demo",
+      icon: "laptop-code",
+      prefix: "demo/",
+      link: "demo/",
+      children: "structure",
+      collapsible:true,
+    },
   ],
-  "/sop/": [
-    "holingky",
-  ]
+  "/sop/": "structure",
+  "/designsystem/": "structure",
 });

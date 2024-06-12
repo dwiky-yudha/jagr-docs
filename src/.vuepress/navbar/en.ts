@@ -2,27 +2,13 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
-  "/demo/",
-  "/sop/",
   {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-    ],
+    text: "Design System",
+    icon: "pen-nib",
+    prefix: "designsystem/",
+    link: "designsystem/",
   },
+  "/sop/",
   {
     text: "Vuepress Hope Guide",
     icon: "question",
